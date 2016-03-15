@@ -1,0 +1,35 @@
+{
+    // package name
+    "name": "vbazovic/yii2-openvpngrid",
+
+    // package type
+    "type": "yii2-extension",
+
+    "description": "The OpenVPN management grid for the Yii framework",
+    "keywords": ["yii2", "openvpn", "management", "helper"],
+    "license": "GPL-3.0+",
+    "support": {
+        "issues": "https://github.com/vbazovic/yii2-openvpngrid/issues",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "https://github.com/vbazovic/yii2-openvpngrid/wiki/",
+        "source": "https://github.com/vbazovic/yii2-openvpngrid"
+    },
+    "authors": [
+        {
+            "name": "Vladimir Bazovic",
+            "email": "vbazovic@gmail.com"
+        }
+    ],
+
+    // package dependencies
+    "require": {
+        "yiisoft/yii2": "*",
+    },
+
+    // class autoloading specs
+    "autoload": {
+        "psr-4": {
+            "vbazovic\\openvpngrid\\": ""
+        }
+    }
+}
